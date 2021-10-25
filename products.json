@@ -1,0 +1,114 @@
+{
+    "products":[
+                {
+                    "id": 0,
+                    "name": "Chocolate Chip",
+                    "price": 15,
+                    "image": "images/chochip.jpg",
+                    "specialProduct": false,
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur elit sem, euismod rhoncus sapien eget, lobortis tincidunt purus. Aenean hendrerit rutrum tellus, id consequat lectus. Nam iaculis sem arcu, efficitur accumsan purus vestibulum quis. Donec pretium quam eu sapien pretium, sed euismod erat scelerisque.",
+                    "type": "cookie",
+                    "stock": "1"
+                },
+                {
+                    "id": 1,
+                    "name": "Double Chocolate",
+                    "price": 20,
+                    "image": "images/doublechip.jpg",
+                    "specialProduct": false,
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur elit sem, euismod rhoncus",
+                    "type": "cookie",
+                    "stock": "4"
+                },
+                {
+                    "id": 2,
+                    "name": "Rainbow Cookie",
+                    "price": 19,
+                    "image": "images/Treat-Rainbow_Cookie.jpg",
+                    "specialProduct": true,
+                    "description": "test",
+                    "type": "cookie",
+                    "stock": "7"
+                },
+                {
+                    "id": 3,
+                    "name": "Vintage Post Kort (Canada)",
+                    "price": 239,
+                    "image": "images/canada.jpg",
+                    "specialProduct": false,
+                    "description": "test",
+                    "type": "collectible",
+                    "stock": "4"
+                },
+                {
+                    "id": 4,
+                    "name": "Pokemon Kort 1999-2000",
+                    "price": 599,
+                    "image": "images/pokemon.jpg",
+                    "specialProduct": false,
+                    "description": "test",
+                    "type": "collectible",
+                    "stock": "3"
+                },
+                {
+                    "id": 5,
+                    "name": "Final Fantasy Action Figur (Cloud)",
+                    "price": 149,
+                    "image": "images/actionfigure.jpg",
+                    "specialProduct": false,
+                    "description": "test",
+                    "type": "collectible",
+                    "stock": "19"
+                },
+                {
+                    "id": 6,
+                    "name": "Need for Speed Hot Pursuit 2",
+                    "price": 299,
+                    "image": "images/nfshp.jpg",
+                    "specialProduct": false,
+                    "description": "test",
+                    "type": "game",
+                    "stock": "2"
+                },
+                {
+                    "id": 7,
+                    "name": "Playstation 2",
+                    "price": 899,
+                    "image": "images/ps2.png",
+                    "specialProduct": false,
+                    "description": "test",
+                    "type": "game",
+                    "stock": "6"
+                },
+                {
+                    "id": 8,
+                    "name": "Forza Horizon 5",
+                    "price": 299,
+                    "image": "images/forza1.jpg",
+                    "specialProduct": false,
+                    "description": "test",
+                    "type": "game",
+                    "stock": "1"
+                },
+                {
+                    "id": 9,
+                    "name": "Peanut Cookie",
+                    "price": 24,
+                    "image": "images/peanutcok.jpg",
+                    "specialProduct": false,
+                    "description": "test",
+                    "type": "cookie",
+                    "stock": "5"
+                },
+                {
+                    "id": 10,
+                    "name": "Raisin Cookie",
+                    "price": 4,
+                    "image": "images/raisincok.jpg",
+                    "specialProduct": false,
+                    "description": "test",
+                    "type": "cookie",
+                    "stock": "10"
+                }
+            ]
+        }

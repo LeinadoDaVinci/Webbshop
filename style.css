@@ -1,0 +1,594 @@
+
+/* Startpage-v*/
+header{
+    width: 100%;
+    height: 4.24em;
+    background-color: rgb(168, 147, 90);
+}
+#home{
+    float: left;
+    font-size: 2em;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+    cursor: pointer;
+    color:wheat;
+}
+
+#products{
+    float: left;
+    font-size: 2em;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+    cursor: pointer;
+    color:wheat;
+}
+
+#shoppingCart{
+    float: left;
+    font-size: 2em;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+    cursor: pointer;
+    color: wheat;
+}
+
+#admin{
+        float: left;
+        font-size: 2em;
+        padding-left: 0.5em;
+        padding-top: 0.5em;
+        cursor: pointer;
+        color: wheat;
+    }
+
+#shoppingCartAmount{
+    position: absolute;
+    top: 2.27em;
+    left: 16.5em;
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family: Helvetica;
+    color: rgb(124, 255, 85);
+}
+
+#introdiv{
+        padding: 2.5em;
+        background: #c5a66d;
+        padding-bottom: 2.5em;
+}
+
+#introHeader{
+        font-size: 2.5em;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        padding-left: 20px;
+        text-align: justify;
+        position: relative;
+        width: 41%;
+        font-family: "Helvetica";
+        font-style: italic;
+        color: rgba(105, 51, 1, 0.979);
+        background-color: rgba(252, 217, 152, 0.925);
+        border-radius: 7px;
+        box-shadow: 1px 1px rgba(97, 76, 37, 0.925);
+}
+
+#introImg{
+        position: absolute;
+        display: block;
+        margin:auto;
+        left: 60%;
+        top: 9%;
+        width:40%;
+        height:50%;
+}
+
+#topthree{
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 50%;
+}
+    
+#flufftext{
+        font-size: 2em;
+        font-weight: bold;
+}
+
+#introSubHeader{
+        font-size: 1.5em;
+        padding-bottom: 0.5em;
+        padding-top: 0.5em;
+        padding-left: 20px;
+        text-align: justify;
+        position: relative;
+        width: 25%;
+        font-family: "Helvetica";
+        font-style: italic;
+        color: rgba(105, 51, 1, 0.979);
+        background-color: rgba(252, 217, 152, 0.925);
+        border-radius: 7px;
+        box-shadow: 1px 1px rgba(97, 76, 37, 0.925);
+}
+
+#introText{
+        padding-left: 20px;
+        text-align: justify;
+        position: relative;
+        width: 31%;
+        height: 6.5em;
+        font-size: 1.2em;
+        font-family: "Helvetica";
+        color: rgba(105, 51, 1, 0.979);
+        background-color: rgba(252, 217, 152, 0.925);
+        border-radius: 7px;
+        box-shadow: 1px 1px rgba(97, 76, 37, 0.925);
+}
+
+/* ^-Start Page / Products-v*/
+#bestSeller{
+        padding-top: 2em;
+        padding-bottom: 2.5em;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        background:rgba(25, 99, 89, 0.863);
+    }
+
+#subCategory{
+        padding-top: 2em;
+        padding-bottom: 2.5em;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        background:#493d28;
+    }
+
+#bestFrame{
+        padding-bottom: 10px;
+        padding-left: 5px;
+        margin: auto;
+        width: 20%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        background:#dddddd;
+        border-radius: 15px;
+        font-size: 1.2em;
+        font-family: "Helvetica";
+        color:rgba(25, 99, 89, 0.863);
+    }    
+
+#specialproductContainer{
+        padding-top: 35px;
+        padding-left: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        background-color: lightgray;
+        width: 20%;
+        height: 400px;
+        justify-content: space-evenly;
+        border-radius: 15px;
+}
+
+#productContainer{
+        padding-top: 35px;
+        padding-left: 5px;
+        margin-bottom: 45px;
+        margin-left: 45px;
+        background-color: lightgray;
+        width: 20%;
+        height: 400px;
+        justify-content: space-evenly;
+        border-radius: 15px;
+}
+
+.productItems{
+        text-align: center;
+        display: grid;
+        grid-template-rows: 3fr 0.5fr 0.5fr 0.5fr;
+}
+
+.productsImage{
+        width: 50%;
+        height: 50%;
+}
+
+.product-title{
+        margin-top: 0.5em;
+        font-size: 1.8em;
+        font-family: "Helvetica";
+        background-color: rgb(240, 240, 240);
+        color:rgba(129, 175, 169, 0.863);
+        text-shadow: 1px 1px rgb(72, 97, 94, 0.4);
+        border-radius: 5px;
+ }
+    
+.product-price{
+        position: relative;
+        font-size: 1.2em;
+        bottom: 1.48em;
+        left: 2.6em;
+        margin-left: 3em;
+        margin-right: 3em;
+        width: 30%;
+        font-family: "Helvetica";
+        background-color: rgb(240, 240, 240);
+        color:rgba(87, 110, 107, 0.863);
+        text-shadow: 1px 1px rgb(72, 97, 94, 0.2);
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+}
+
+.product-description{
+        position: relative;
+        font-size: 1em;
+        bottom: 1.48em;
+        right: 1.4em;
+        margin-left: 3em;
+        margin-right: 3em;
+        width: 80%;
+        height: 5%;
+        font-family: "Helvetica";
+        background-color: rgb(240, 240, 240);
+        color:rgba(87, 110, 107, 0.863);
+        text-shadow: 1px 1px rgb(72, 97, 94, 0.2);
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        text-align: center;
+        overflow: hidden;
+        transition: .6s;
+}
+
+.product-description:hover{
+        transition: .6s;
+        height: auto;
+}
+
+
+.product-quantity{
+        position: relative;
+        font-size: 1.2em;
+        bottom: 1.48em;
+        right: 1.7em;
+        margin-left: 3em;
+        margin-right: 3em;
+        width: 33%;
+        font-family: "Helvetica";
+        background-color: rgb(240, 240, 240);
+        color:rgba(87, 110, 107, 0.863);
+        text-shadow: 1px 1px rgb(72, 97, 94, 0.2);
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+}
+
+.product-button{
+        position: relative;
+        bottom: 5.4em;
+        left: 5em;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 80px;
+        border-radius: 5px;
+        background-color: rgba(109, 214, 105, 0.479);
+        color:rgba(52, 102, 54, 0.863);
+}
+
+.product-button:hover{
+        background-color: rgba(109, 214, 105, 0.897);
+}
+    
+#productsHeader{
+        font-size: 2.5em;
+        margin-top: 1em;
+    }
+    
+#productsList{
+        grid-template-columns: 4fr 1fr;
+        grid-template-rows: 1fr 5fr 1fr;
+        width: 100%;
+        height: 100%;
+        background: azure;
+}
+
+/*^Products, Cart-v*/
+#shopcartpage{
+        padding-top: 2em;
+        padding-bottom: 40em;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        background: rgb(57, 194, 180);
+}
+
+.shoppingList{
+        font-size: 3em;
+        font-family: "Helvetica";
+        font-weight: bold;
+        color: white;
+}
+
+#shoppingContainer2{
+        margin: auto;
+        background-color: rgb(255, 255, 255);
+        width: 1200px;
+        height: auto;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        justify-content: space-evenly;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+}
+
+#shoppingContainer{
+        margin: auto;
+        background-color: rgba(211, 211, 211, 0.733);
+        width: 1200px;
+        height: 80px;
+        justify-content: space-evenly;
+        border-radius: 15px;
+        margin-top: 5px;
+}
+
+.shoppingImage{
+        width: 80px;
+        height: 80px;
+        margin-right: 1000px;
+}
+
+.shopping-title{
+        text-align: left;
+        font-family: "Lucida Console";
+        font-size: 3em;
+        font-style: italic;
+        width: 60%;
+        margin-left: 145px;
+        margin-top: -70px;
+        color:rgba(129, 175, 169, 0.863);
+        text-shadow: 1px 1px rgb(72, 97, 94, 0.2);
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+}
+
+.shopping-price{
+        text-align: right;
+        font-family: "Helvetica";
+        font-size: 3em;
+        width: 60%;
+        margin-left: 340px;
+        margin-top: -95px;
+        color:rgb(75, 117, 112);
+        text-shadow: 1px 1px rgba(9, 65, 65, 0.842);
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+}
+
+.shopping-remove{
+        float: right;
+        font-size: 3em;
+        margin-top: -110px;
+        margin-right: 50px;
+        width: 50px;
+        height: 65px;
+        font-family:"Verdana";
+        background-color: rgba(255, 0, 0, 0.664);
+        color: rgb(158, 0, 0)
+}
+
+.shopping-remove:hover{
+        background-color:rgb(219, 0, 0);
+        border-color:rgb(252, 114, 114);
+        border: 2px 2px;
+}
+
+.shopping-counter{
+        position: relative;
+        font-size: 3em;
+        bottom: 1.0em;
+        left: 0.17em;
+        margin-left: 3em;
+        margin-right: 3em;
+        width: 470px;
+        height: 70px;
+        font-family: "Helvetica";
+        background-color: rgb(255, 255, 255);
+        color:rgba(87, 110, 107, 0.863);
+        text-shadow: 1px 1px rgb(72, 97, 94, 0.2);
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+}
+
+#purchase-container{
+        margin: auto;
+        background-color: rgb(255, 255, 255);
+        width: 1200px;
+        height: 500px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        justify-content: space-evenly;
+}
+
+.purchase-delivery{
+        position: relative;
+        right: 11em;
+        bottom: 1em;
+        font-size: 2em;
+        font-family: "Helvetica";
+
+}
+
+#delivery-field{
+        position:relative;
+        font-size: 1.25em;
+        bottom: 2em;
+        right: 14.3em;
+        font-family: "Helvetica";
+}
+
+.purchase-input{
+        position: relative;
+        right: 11em;
+        bottom: 0.2em;
+        font-size: 2em;
+        font-family: "Helvetica";
+
+}
+
+#input-field{
+        position:relative;
+        font-size: 1.5em;
+        right: 15em;
+        bottom: 0.9em;
+}
+
+.inputsize{
+        height: 23px;
+        width: 250px;
+}
+
+#purchase-payment{
+        position:relative;
+        right: 18em;
+        top: 0.2em;
+        font-size: 1.5em;
+}
+
+.purchase-choice{
+        font-size: 2em;
+        position:relative;
+        right: 12.5em;
+}
+
+.mastercard{
+        position:relative;
+        right: 27em;
+        top: -0.1em;
+        height: 50px;
+        width: 80px;
+}
+
+.paypal{
+        position:relative;
+        right: 24.5em;
+        top: 0em;
+        height: 50px;
+        width: 60px;
+}
+
+.shopping-buy{
+        position: relative;
+        left: 7em;
+        bottom: 2em;
+        font-size: 3em;
+        width: 250px;
+        height: 65px;
+        font-family:"Verdana";
+        background-color: rgba(43, 255, 0, 0.664);
+        color: rgb(1, 129, 18);
+        border-radius: 10px;
+}
+
+.shopping-buy:hover{
+        background-color:greenyellow;
+        color: rgba(1, 129, 18, 0.651)
+}
+
+/*^Cart, Admin-v*/
+
+#admindiv{
+        background-color:rgb(156, 156, 156);
+        padding-top: 2em;
+        padding-bottom: 2em;
+        text-align: center;
+}
+
+.adminOptions{
+        font-size: 3em;
+        font-style: "Helvetica";
+        color: rgb(214, 214, 214);
+}
+
+.adminAdd{
+        background-color: rgb(0, 156, 0);
+        color:rgb(221, 221, 221);
+        width: 70px;
+        height: 50px;
+        font-size: 2em;
+}
+
+.adminAdd:hover{
+        background-color: yellowgreen;
+}
+
+.adminChange{
+        background-color: rgb(207, 194, 3);
+        color: rgb(221, 221, 221);
+        width: 130px;
+        height: 50px;
+        font-size: 2em;
+}
+
+.adminChange:hover{
+        background-color:rgb(255, 208, 0);
+        color: rgb(99, 99, 99);
+}
+
+.adminEt{
+        background-color: rgb(71, 71, 71);
+        color:rgb(221, 221, 221);
+        width: 70px;
+        height: 50px;
+        font-size: 2em;
+}
+
+.adminField{
+        display:block;
+        font-family: "Verdana";
+        font-size: 2em;
+}
+
+.adminAddbutton{
+        display:block;
+        margin: auto;
+        font-family: "Helvetica";
+        font-size: 2em;
+        background-color: rgb(0, 199, 0);
+        color:rgba(0, 73, 10, 0.753);
+}
+
+.adminAddbutton:hover{
+        background-color:rgb(75, 212, 11);
+}
+
+/*^Admin, Footer-v*/
+
+#footer{
+        display: grid;
+        grid-template-columns: 1.8fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        background: #98b6c5;
+        padding: 1em;
+}
+
+.footerLinks{
+        grid-column: 1;
+        font-size: 1.5em;
+        cursor: pointer;
+        padding-left: 1em;
+        padding-top: 0.3em;
+}
+.copyright{
+    float:right;
+    color:grey
+}
+
+#footer div{
+        grid-column: 2;
+        grid-row: 3;
+        font-size: 2em;
+}
